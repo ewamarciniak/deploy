@@ -1,0 +1,40 @@
+Jan 20 14:30:01 4
+Jan 20 14:30:01 Apache process is Running
+Jan 20 14:30:01 1
+Jan 20 14:30:01 Mysql process is Running
+Jan 20 14:30:01 0
+Jan 20 14:30:01 Apache is Listening
+Jan 20 14:30:01 Mysql is Listening
+Jan 20 14:30:01 errorcount is: 0
+Jan 20 14:30:02 Percent of memory used: 20.300
+Jan 20 14:30:02 Disk space capacity: 28%.
+Jan 20 14:31:01 4
+Jan 20 14:31:01 Apache process is Running
+Jan 20 14:31:01 1
+Jan 20 14:31:01 Mysql process is Running
+Jan 20 14:31:01 0
+Jan 20 14:31:01 Apache is Listening
+Jan 20 14:31:01 Mysql is Listening
+Jan 20 14:31:01 errorcount is: 0
+Jan 20 14:31:02 Percent of memory used: 20.100
+Jan 20 14:31:02 Disk space capacity: 28%.
+Jan 20 14:32:01 4
+Jan 20 14:32:01 Apache process is Running
+Jan 20 14:32:01 1
+Jan 20 14:32:01 Mysql process is Running
+Jan 20 14:32:01 0
+Jan 20 14:32:01 Apache is Listening
+Jan 20 14:32:01 Mysql is Listening
+Jan 20 14:32:01 errorcount is: 0
+Jan 20 14:32:01 Percent of memory used: 20.200
+Jan 20 14:32:01 Disk space capacity: 28%.
+Jan 20 14:33:01 4
+Jan 20 14:33:01 Apache process is Running
+Jan 20 14:33:01 1
+Jan 20 14:33:01 Mysql process is Running
+Jan 20 14:33:01 0
+Jan 20 14:33:01 Apache is Listening
+Jan 20 14:33:01 Mysql is Listening
+Jan 20 14:33:01 errorcount is: 0
+Jan 20 14:33:02 Percent of memory used: 20.200
+Jan 20 14:33:02 Disk space capacity: 28%.

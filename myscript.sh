@@ -46,7 +46,7 @@ fi
 
 #run second script will to check if the ports are listening and 
 #proceed with build, integrate and test if error count equal to 0
-source /home/testuser/project/check_tcp_ports_listening.sh
+source /home/testuser/project/check_ports_listening.sh
 if [ $ERRORCOUNT -eq 0 ]; then
 
 #BUILD
