@@ -1,0 +1,30 @@
+
++------------------------------------------------------------------------------------+
+|                              Time: 12:10:04                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 12:10:52                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               DOWN        N/A                 |
+| http://localhost:80/form.html                DOWN        N/A                 |
+| http://localhost:80/cgi-bin/testdb.pl        DOWN        N/A                 |
+| http://localhost:80/cgi-bin/hello_world.pl   DOWN        N/A                 |
+| http://localhost:80/cgi-bin/testdb.pl        DOWN        N/A                 |
+
++------------------------------------------------------------------------------------+
+|                              Time: 12:16:09                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
