@@ -1,1 +1,1 @@
-Mem:    508176k total,   390280k used,   117896k free,    44452k buffers
+Mem:    508176k total,   208264k used,   299912k free,    22940k buffers

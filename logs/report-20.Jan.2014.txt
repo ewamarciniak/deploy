@@ -28,3 +28,173 @@
 | http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
 | http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
 | http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 14:44:50                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 14:46:44                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 1 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 15:57:24                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 1 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:02:05                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 1 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:05:26                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:07:27                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:16:33                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:19:04                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:23:14                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:30:03                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 1 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 1 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:41:16                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:42:31                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 1 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:44:03                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 1 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:47:23                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:48:34                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:50:31                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 16:53:12                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |

@@ -28,6 +28,13 @@ echo Checking internet connection
 echo ....
 source /home/testuser/project/check_connection.sh
 
+#creates a database backup
+BACKUP="db_backup_$(date +%Y-%m-%d_%H_%M).log"
+
+echo Creating a database backup
+echo .....
+mysqldump -u root -ppassword dbtest > /home/testuser/project/db_backups/$BACKUP.sql
+
 #start clean environment using external script - clean.sh
 echo Providing a clean environment
 echo .....
@@ -47,8 +54,6 @@ mkdir integrate
 mkdir test
 mkdir deploy
 
-
-
 #BUILD
 #runs build process from external script - build.sh
 source /home/testuser/project/build.sh
@@ -65,6 +70,13 @@ source /home/testuser/project/test.sh
 #runs deploy process from external script - deploy.sh
 source /home/testuser/project/deploy.sh
 
+#start services
+echo Starting services
+echo .....
+/etc/init.d/apache2 start
+start mysql
+echo Apache2 and mysql should be running now
+echo .....
 
 #check if apache and mysql are running
 source /home/testuser/project/check_services_running.sh
