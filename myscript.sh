@@ -29,11 +29,21 @@ echo ....
 source /home/testuser/project/check_connection.sh
 
 #creates a database backup
-BACKUP="db_backup_$(date +%Y-%m-%d_%H_%M).log"
+DBBACKUP="db_backup_$(date +%Y-%m-%d_%H_%M).sql"
+HTMLBACKUP="html_backup_$(date +%Y-%m-%d_%H_%M).sql"
 
 echo Creating a database backup
 echo .....
-mysqldump -u root -ppassword dbtest > /home/testuser/project/db_backups/$BACKUP.sql
+mysqldump -u root -ppassword dbtest >> /home/testuser/project/backup/$DBBACKUP
+echo "Backup saved as /home/testuser/project/backup/$DBBACKUP"
+echo .....
+
+#create the html backup
+echo Creating html backup
+echo .....
+cp -r /var/www /home/testuser/project/backup/$HTMLBACKUP
+echo "Backup saved as /home/testuser/project/backup/$HTMLBACKUP"
+echo .....
 
 #start clean environment using external script - clean.sh
 echo Providing a clean environment
@@ -74,7 +84,7 @@ source /home/testuser/project/deploy.sh
 echo Starting services
 echo .....
 /etc/init.d/apache2 start
-start mysql
+sudo service mysql start
 echo Apache2 and mysql should be running now
 echo .....
 

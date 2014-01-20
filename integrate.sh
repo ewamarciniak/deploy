@@ -6,6 +6,9 @@ cd integrate
 tar -zxvf pre_integrate.tgz
 cd NCIRL
 
+#start mysql to add to db
+sudo service mysql start
+
 #opens SQL and adds in data to custdetails table
 cat<<FINISH | mysql -uroot -ppassword
 drop database if exists dbtest;
@@ -17,6 +20,9 @@ create table if not exists custdetails ( name VARCHAR(30) NOT NULL DEFAULT '', a
 insert into custdetails (name,address) values ('John Doe','21 Jump Street');
 FINISH
 
+#stop mysql after integrationb
+sudo service mysql stop
+
 cd ..
 
 #tar NCIRL and move to test folder
@@ -26,3 +32,6 @@ mv pre_test.tgz -t /tmp/$SANDBOX/test
 #clean integrate folder
 rm -rf NCIRL
 cd ..
+echo .....
+echo Moving to the test stage
+echo .....

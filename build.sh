@@ -41,3 +41,6 @@ mv pre_integrate.tgz -t /tmp/$SANDBOX/integrate
 rm -rf NCIRL
 
 cd ..
+echo .....
+echo Moving to the integration stage
+echo .....

@@ -19,8 +19,9 @@ if [ ${NUM_FAILS} -ne 0 ]; then
 fi
 #open SQL and shows what was entered in to table in integrtate section
 echo .....
-echo  Checking for data entered to the DB during the integration phase
+echo  "Checking for data entered to the DB during the integration phase"
 echo .....
+
 cat<<FINISH | mysql -uroot -ppassword
 use dbtest;
 select*from custdetails;
@@ -31,3 +32,6 @@ tar -czvf pre_deploy.tgz NCIRL
 mv pre_deploy.tgz -t /tmp/$SANDBOX/deploy
 rm -rf NCIRL
 cd ..
+echo .....
+echo Moving to the deployment stage
+echo .....
