@@ -1,0 +1,114 @@
+Jan 21 00:56:24 [H[2JStarting deployment process
+Jan 21 00:56:24 .....
+Jan 21 00:56:24 Providing a clean environment
+Jan 21 00:56:24 .....
+Jan 21 00:56:24 Percent of memory used: 43.800
+Jan 21 00:56:24 Disk space capacity: 28%.
+Jan 21 00:56:24  * Stopping web server apache2
+Jan 21 00:56:25  ... waiting    ...done.
+Jan 21 00:56:25 Stopped apache2 server
+Jan 21 00:56:25 .....
+Jan 21 00:56:27 mysql stop/waiting
+Jan 21 00:56:27 Stopped mysql
+Jan 21 00:56:27 .....
+Jan 21 00:56:27 cron stop/waiting
+Jan 21 00:56:27 Stopped cron jobs
+Jan 21 00:56:27 .....
+Jan 21 00:56:27 Removing apache2 package
+Jan 21 00:56:27 .....
+Jan 21 00:56:27 Reading package lists...
+Jan 21 00:56:27 Building dependency tree...
+Jan 21 00:56:27 Reading state information...
+Jan 21 00:56:27 The following packages were automatically installed and are no longer required:
+Jan 21 00:56:27   apache2-utils libaprutil1-dbd-sqlite3 apache2.2-bin libapr1 libaprutil1-ldap
+Jan 21 00:56:27   apache2.2-common ssl-cert apache2-mpm-worker libaprutil1
+Jan 21 00:56:27 Use 'apt-get autoremove' to remove them.
+Jan 21 00:56:27 The following packages will be REMOVED:
+Jan 21 00:56:27   apache2*
+Jan 21 00:56:27 0 upgraded, 0 newly installed, 1 to remove and 136 not upgraded.
+Jan 21 00:56:27 After this operation, 29.7 kB disk space will be freed.
+Jan 21 00:56:27 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75609 files and directories currently installed.)
+Jan 21 00:56:27 Removing apache2 ...
+Jan 21 00:56:29 Removed apache2 package
+Jan 21 00:56:29 .....
+Jan 21 00:56:29 Removing mysql package
+Jan 21 00:56:29 .....
+Jan 21 00:56:29 Reading package lists...
+Jan 21 00:56:29 Building dependency tree...
+Jan 21 00:56:29 Reading state information...
+Jan 21 00:56:30 The following packages were automatically installed and are no longer required:
+Jan 21 00:56:30   apache2-utils libnet-daemon-perl libaprutil1-dbd-sqlite3 libdbi-perl
+Jan 21 00:56:30   apache2.2-bin mysql-client-core-5.5 libdbd-mysql-perl mysql-server-5.5
+Jan 21 00:56:30   libapr1 libterm-readkey-perl mysql-client-5.5 libaprutil1-ldap libplrpc-perl
+Jan 21 00:56:30   mysql-server-core-5.5 apache2.2-common ssl-cert apache2-mpm-worker
+Jan 21 00:56:30   libaprutil1
+Jan 21 00:56:30 Use 'apt-get autoremove' to remove them.
+Jan 21 00:56:30 The following packages will be REMOVED:
+Jan 21 00:56:30   mysql-client* mysql-server*
+Jan 21 00:56:30 0 upgraded, 0 newly installed, 2 to remove and 136 not upgraded.
+Jan 21 00:56:30 After this operation, 231 kB disk space will be freed.
+Jan 21 00:56:30 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75605 files and directories currently installed.)
+Jan 21 00:56:30 Removing mysql-client ...
+Jan 21 00:56:30 Removing mysql-server ...
+Jan 21 00:56:31 Removed mysql package
+Jan 21 00:56:31 .....
+Jan 21 00:56:31 Starting apache2 package instalation
+Jan 21 00:56:31 .....
+Jan 21 00:56:31 Reading package lists...
+Jan 21 00:56:32 Building dependency tree...
+Jan 21 00:56:32 Reading state information...
+Jan 21 00:56:32 The following packages were automatically installed and are no longer required:
+Jan 21 00:56:32   libnet-daemon-perl libdbi-perl mysql-client-core-5.5 libdbd-mysql-perl
+Jan 21 00:56:32   mysql-server-5.5 libterm-readkey-perl mysql-client-5.5 libplrpc-perl
+Jan 21 00:56:32   mysql-server-core-5.5
+Jan 21 00:56:32 Use 'apt-get autoremove' to remove them.
+Jan 21 00:56:32 The following NEW packages will be installed:
+Jan 21 00:56:32   apache2
+Jan 21 00:56:32 0 upgraded, 1 newly installed, 0 to remove and 136 not upgraded.
+Jan 21 00:56:32 Need to get 0 B/1,496 B of archives.
+Jan 21 00:56:32 After this operation, 29.7 kB of additional disk space will be used.
+Jan 21 00:56:32 Selecting previously unselected package apache2.
+Jan 21 00:56:32 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75599 files and directories currently installed.)
+Jan 21 00:56:32 Unpacking apache2 (from .../apache2_2.2.22-1ubuntu1.4_i386.deb) ...
+Jan 21 00:56:33 Setting up apache2 (2.2.22-1ubuntu1.4) ...
+Jan 21 00:56:34 Installed apache2 package
+Jan 21 00:56:34 .....
+Jan 21 00:56:34 Starting mysql package instalation
+Jan 21 00:56:34 .....
+Jan 21 00:56:34 Reading package lists...
+Jan 21 00:56:34 Building dependency tree...
+Jan 21 00:56:34 Reading state information...
+Jan 21 00:56:34 The following NEW packages will be installed:
+Jan 21 00:56:34   mysql-client mysql-server
+Jan 21 00:56:35 0 upgraded, 2 newly installed, 0 to remove and 136 not upgraded.
+Jan 21 00:56:35 Need to get 0 B/22.2 kB of archives.
+Jan 21 00:56:35 After this operation, 231 kB of additional disk space will be used.
+Jan 21 00:56:35 Selecting previously unselected package mysql-client.
+Jan 21 00:56:35 (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75603 files and directories currently installed.)
+Jan 21 00:56:35 Unpacking mysql-client (from .../mysql-client_5.5.35-0ubuntu0.12.04.1_all.deb) ...
+Jan 21 00:56:35 Selecting previously unselected package mysql-server.
+Jan 21 00:56:35 Unpacking mysql-server (from .../mysql-server_5.5.35-0ubuntu0.12.04.1_all.deb) ...
+Jan 21 00:56:36 Setting up mysql-client (5.5.35-0ubuntu0.12.04.1) ...
+Jan 21 00:56:36 Setting up mysql-server (5.5.35-0ubuntu0.12.04.1) ...
+Jan 21 00:56:37 Installed mysql package
+Jan 21 00:56:37 .....
+Jan 21 00:56:37 Starting services
+Jan 21 00:56:37 .....
+Jan 21 00:56:37  * Starting web server apache2
+Jan 21 00:56:37    ...done.
+Jan 21 00:56:39 mysql start/running, process 23039
+Jan 21 00:56:39 Apache2 and mysql should be running now
+Jan 21 00:56:39 .....
+Jan 21 00:56:39 Created Sandbox: sandbox_27117
+Jan 21 00:56:39 .....
+Jan 21 00:56:39 4
+Jan 21 00:56:39 Apache process is Running
+Jan 21 00:56:39 1
+Jan 21 00:56:39 Mysql process is Running
+Jan 21 00:56:39 0
+Jan 21 00:56:39 Both mysql and apache2 services are running
+Jan 21 00:56:39 .....
+Jan 21 00:56:39 Apache is Listening
+Jan 21 00:56:39 Mysql is Listening
+Jan 21 00:56:39 errorcount is: 0
+Jan 21 00:56:39 Cloning into 'NCIRL'...

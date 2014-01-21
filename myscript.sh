@@ -13,7 +13,7 @@ source /home/testuser/project/check_memory.sh
 if [ $(echo "$USEDPCT < 90" | bc) -ne 0 ]; then
 
 #check if memory used is less that 90%
-source /home/testuser/project/disc_space_check.sh
+source /home/testuser/project/check_disc_space.sh
 if [ $ERRORCOUNT -eq 0 ]; then
 
 #start clean environment using external script - clean.sh
@@ -26,6 +26,7 @@ echo Created Sandbox: $SANDBOX
 echo .....
 mkdir $SANDBOX
 cd $SANDBOX
+
 # Make the process directories
 mkdir build
 mkdir integrate
@@ -84,4 +85,7 @@ fi
 echo .....
 END=$(date +%s.%N)
 DIFF=$(echo "($END - $START)" | bc)
-echo Finished deployment process in $DIFF seconds
+DATE=$(date)
+echo Sucessfully finished deployment process in $DIFF seconds
+echo ..... 
+echo The lastest successful deployment took place $DATE and took $DIFF seconds. It used $SANDBOX.  | ts  >>  /home/testuser/project/reports/deployment_record.log 
