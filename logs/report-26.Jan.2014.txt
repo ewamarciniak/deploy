@@ -1,0 +1,20 @@
+
++------------------------------------------------------------------------------------+
+|                              Time: 10:52:13                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+
++------------------------------------------------------------------------------------+
+|                              Time: 10:54:28                                        |
+|          HOST                              STATUS       RESPONSE            |
++------------------------------------------------------------------------------------+
+| http://localhost:80/index.html               ACCESSED   Response 0 seconds   |
+| http://localhost:80/form.html                ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/hello_world.pl   ACCESSED   Response 0 seconds   |
+| http://localhost:80/cgi-bin/testdb.pl        ACCESSED   Response 0 seconds   |

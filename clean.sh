@@ -3,7 +3,7 @@
 /etc/init.d/apache2 stop
 echo Stopped apache2 server
 echo .....
-stop mysql
+sudo service mysql stop
 echo Stopped mysql
 echo .....
 service cron stop
