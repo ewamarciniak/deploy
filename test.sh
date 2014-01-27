@@ -33,5 +33,5 @@ mv pre_deploy.tgz -t /tmp/$SANDBOX/deploy
 rm -rf NCIRL
 cd ..
 echo .....
-echo Moving to the deployment stage
+echo Test stage is complete. Moving to the deployment stage
 echo .....

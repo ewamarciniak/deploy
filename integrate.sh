@@ -33,5 +33,5 @@ mv pre_test.tgz -t /tmp/$SANDBOX/test
 rm -rf NCIRL
 cd ..
 echo .....
-echo Moving to the test stage
+echo Integration stage is coplete. Moving to the test stage
 echo .....

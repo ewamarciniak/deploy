@@ -42,5 +42,5 @@ rm -rf NCIRL
 
 cd ..
 echo .....
-echo Moving to the integration stage
+echo Build is complete. Moving to the integration stage
 echo .....

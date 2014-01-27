@@ -110,7 +110,7 @@ fi
 #proceed with build, integrate and test if error count equal to 0
 perl /home/testuser/project/check_urls_availability.pl
 
-
+#switch the cron jobs back on
 service cron start
 echo .....
 END=$(date +%s.%N)
